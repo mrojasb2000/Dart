@@ -1,5 +1,5 @@
 main() {
-  // numbers
+  // ============================ numbers
   int a = 10;
   double b = 10;
 
@@ -14,11 +14,27 @@ main() {
 
   double $b = 45.55;
   print($b);
-  // string
+  // ============================ string
+  var first_name = 'Mavro';
+  var last_name = "Mavro";
 
-  // Boolean
+  String my_name = "O'Connor";
 
-  // Lists - Slice
+  String multiline = '''Hello World
+What you're name?
+''';
 
-  // Sets
+  print(multiline);
+
+  // ============================ Boolean
+  bool yes = true;
+  bool no = false;
+  bool running; // null
+
+  print(yes);
+  print(no);
+
+  // ============================ Lists - Slice
+
+  // ============================ Sets
 }
