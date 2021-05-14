@@ -60,4 +60,21 @@ What you're name?
   // peoples.addAll(['Hombre Araña', 'Thor', 'Capitan America']);
 
   // ============================ Sets
+  // Set unique elements
+  Set<String> villanos = {'Lex', 'Red Skull', 'Doom'};
+  villanos.add('Flash Reverso');
+  villanos.add('Lex');
+  print(villanos);
+
+// ============================ Maps (key/value)
+
+  Map<dynamic, String> ironman = {
+    'name': 'Tony Stark',
+    'power': 'Dinner',
+    10: 'Level energy'
+  };
+
+  print(ironman);
+  print(ironman['name']);
+  print(ironman[10]);
 }
