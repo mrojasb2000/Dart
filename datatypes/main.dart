@@ -35,6 +35,29 @@ What you're name?
   print(no);
 
   // ============================ Lists - Slice
+  List<String> persons = ['Superman', 'Batman', 'Superman'];
+  List<String> employees = []; // dynamic list
+
+  print(persons);
+  print(employees);
+  //employees = persons;
+  //employees.addAll(['Superman', 'Batman']);
+  //employees.addAll(persons);
+  //employees.add('Superman');
+  //employees.add('Batman');
+  employees..add('Superman')..add('Batman')..add('Robin')..add('Batman');
+  print(employees);
+
+  List<String> peoples = new List<String>.filled(3, "");
+  print(peoples.length);
+  peoples[0] = 'Lex';
+  peoples[1] = 'Red Skull';
+  peoples[2] = 'Doom';
+  //peoples[3] = 'Doom'; // error
+
+  print(peoples);
+
+  // peoples.addAll(['Hombre Araña', 'Thor', 'Capitan America']);
 
   // ============================ Sets
 }
