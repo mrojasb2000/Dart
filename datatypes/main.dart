@@ -77,4 +77,12 @@ What you're name?
   print(ironman);
   print(ironman['name']);
   print(ironman[10]);
+
+  Map<String, dynamic> captian = new Map();
+
+  print(captian);
+
+  captian.addAll({'power': 100, 'name': 'Steve'});
+
+  print(captian);
 }
