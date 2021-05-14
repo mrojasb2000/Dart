@@ -1,3 +1,8 @@
+/**
+ * Este archivos sirve para documentar el ejercicio
+ */
+
+/// Este comentario es similar al anterior, el cual será utilizando por dart-doc
 main() {
   var a = 10;
   final double b = 10;
